@@ -9,13 +9,14 @@ export default function DataProfile() {
   return (
     <>
       <section className="mt-7 ">
-        <div className="flex ">
+        <div className="flex   gap-5 xl:flex-nowrap flex-wrap">
           {/* profile */}
-          <div className="flex    gap-6 mr-5  flex-col">
-            <div className="container flex   gap-5  ">
-              <div className="flex gap-8 px-5 h-fit bg-[#fff] py-3 rounded-md shadow-lg border-2 border-[#D9D8D8]  items-center">
+          <div className="flex gap-6 w-full flex-col">
+            {/* loan profile */}
+            <div className="container flex justify-center lg:justify-start  flex-wrap    gap-5  ">
+              <div className="flex gap-8 max-w-48  px-5 h-fit bg-[#fff] py-3 rounded-md shadow-lg border-2 border-[#D9D8D8]  items-center">
                 <div>
-                  <img src={contact} className="h-16" alt="" />
+                  <img src={contact} className="h-10" alt="" />
                 </div>
                 <div className="flex flex-col items-center justify-center ">
                   <h3 className="text-2xl font-semibold">Contact</h3>
@@ -23,9 +24,9 @@ export default function DataProfile() {
                 </div>
               </div>
 
-              <div className="flex gap-8 px-5 h-fit bg-[#fff] py-3 rounded-md shadow-lg border-2 border-[#D9D8D8]  items-center">
+              <div className="flex gap-8 w-48 px-5 h-fit bg-[#fff] py-3 rounded-md shadow-lg border-2 border-[#D9D8D8]  items-center">
                 <div>
-                  <img src={file} className="h-16" alt="" />
+                  <img src={file} className="h-10" alt="" />
                 </div>
                 <div className="flex flex-col items-center justify-center ">
                   <h3 className="text-2xl font-semibold">Loan</h3>
@@ -33,9 +34,9 @@ export default function DataProfile() {
                 </div>
               </div>
 
-              <div className="flex gap-8 px-5 h-fit bg-[#fff] py-3 rounded-md shadow-lg border-2 border-[#D9D8D8]  items-center">
+              <div className="flex gap-8 w-48 px-5 h-fit bg-[#fff] py-3 rounded-md shadow-lg border-2 border-[#D9D8D8]  items-center">
                 <div>
-                  <img src={shopping} className="h-16" alt="" />
+                  <img src={shopping} className="h-10" alt="" />
                 </div>
                 <div className="flex flex-col items-center justify-center ">
                   <h3 className="text-2xl font-semibold">Product</h3>
@@ -43,9 +44,9 @@ export default function DataProfile() {
                 </div>
               </div>
 
-              <div className="flex gap-8 px-5 h-fit bg-[#fff] py-3 rounded-md shadow-lg border-2 border-[#D9D8D8]  items-center">
+              <div className="flex gap-8 w-48 px-5 h-fit bg-[#fff] py-3 rounded-md shadow-lg border-2 border-[#D9D8D8]  items-center">
                 <div>
-                  <img src={bank} className="h-16" alt="" />
+                  <img src={bank} className="h-10" alt="" />
                 </div>
                 <div className="flex flex-col items-center justify-center ">
                   <h3 className="text-2xl font-semibold">Bank</h3>
@@ -53,6 +54,7 @@ export default function DataProfile() {
                 </div>
               </div>
             </div>
+            {/* end loan profile */}
             <LoanTargetDashboard />
             <DonutChart />
           </div>

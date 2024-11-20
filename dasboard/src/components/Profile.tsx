@@ -8,10 +8,10 @@ export default function Profile() {
     <>
       <section className="border-b-[1px] px-4 bg-[#fff] border-b-[#C1C1C1]">
         <div className="flex  gap-6 pb-3 pt-9">
-          <img src={profile} alt="Profile" />
+          <img src={profile} className="max-h-40" alt="Profile" />
           <div className="flex flex-col text-start">
             <h1 className="text-[#17A9E2] text-2xl">YOHANNES AFFANDY (JOJO)</h1>
-            <div className="flex gap-7 mt-3">
+            <div className="flex flex-wrap gap-7 mt-3">
               <div className="flex flex-col gap-4 border-r-[1px] pr-4 border-r-[#C1C1C1] ">
                 <div className="flex gap-2 items-center">
                   <img src={group} alt="Group Icon" />

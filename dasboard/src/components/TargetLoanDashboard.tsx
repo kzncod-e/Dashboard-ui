@@ -6,9 +6,9 @@ const LoanTargetDashboard = () => {
   const targetPercentage = 280; // Set percentage for the second circle
 
   return (
-    <div className="p-6 bg-white shadow-lg w-full rounded-lg  flex justify-between items-center  mx-auto">
+    <div className="p-6 bg-white shadow-lg w-full rounded-lg  flex  justify-center md:flex-nowrap flex-wrap  mx-auto">
       {/* Loan Approval Section */}
-      <div className="flex flex-col items-center w-1/2">
+      <div className="flex flex-col text-center items-center w-1/2">
         <h2 className="text-2xl font-semibold mb-2">PINJAMAN DISETUJUI</h2>
         <div className="w-36 h-36">
           <CircularProgressbar
@@ -22,7 +22,7 @@ const LoanTargetDashboard = () => {
             })}
           />
         </div>
-        <p className="text-sm text-gray-600 mt-2">
+        <p className="text-sm flex  text-gray-600 mt-2">
           2/5 Pinjaman telah disetujui
         </p>
       </div>
@@ -45,7 +45,7 @@ const LoanTargetDashboard = () => {
             })}
           />
         </div>
-        <p className="text-sm text-gray-600 mt-2">
+        <p className="text-sm text-center text-gray-600 mt-2">
           Rp14.000.000.000,00 / Rp5.000.000.000
         </p>
       </div>

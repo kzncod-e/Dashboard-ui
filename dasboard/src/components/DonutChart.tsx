@@ -45,7 +45,7 @@ const DonutChart = () => {
   };
 
   return (
-    <div className="p-4 bg-white shadow-md w-full  rounded-lg  mx-auto">
+    <div className="p-4 bg-white shadow-md w-full mb-6  rounded-lg  mx-auto">
       <h2 className="text-xl font-bold mb-6 text-center">
         Top 5 Bank Approval Tertinggi
       </h2>

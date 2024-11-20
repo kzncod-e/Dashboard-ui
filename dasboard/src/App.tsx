@@ -6,7 +6,7 @@ import DataProfile from "./components/DataProfile";
 function App() {
   return (
     <>
-      <div className="flex bg-[#d9d9d9]">
+      <div className="flex overflow-x-hidden bg-[#d9d9d9]">
         <SideBar />
         <div className="flex  gap-5 w-full flex-col">
           <TopBar />

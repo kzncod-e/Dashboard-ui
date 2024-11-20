@@ -29,7 +29,7 @@ const NotificationTimeline = () => {
   ];
 
   return (
-    <div className="p-4 bg-white shadow-md rounded-md max-w-sm h-fit   mx-auto">
+    <div className="p-4 bg-white shadow-md  items-center rounded-md xl:max-w-sm h-fit w-full my-3 xl:my-0  mx-auto">
       <h2 className="text-xl font-bold mb-4">NOTIFICATION</h2>
       <div>
         <div className="flex flex-col space-y-6">
