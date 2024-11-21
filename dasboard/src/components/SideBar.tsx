@@ -38,7 +38,7 @@ export default function SideBar() {
     <>
       {/* Hamburger Button */}
       <button
-        className={`sm:hidden ${
+        className={`md:hidden ${
           isOpen && "hidden"
         } fixed top-1 left-1 z-50 bg-[#C1C1C1] text-white p-1 rounded-md shadow-md`}
         onClick={() => setIsOpen(!isOpen)}>
@@ -61,7 +61,7 @@ export default function SideBar() {
       <div
         className={`fixed top-0 left-0 h-screen bg-white z-40 transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out sm:translate-x-0 sm:relative sm:inline-block sm:w-fit`}>
+        } transition-transform duration-300 ease-in-out md:translate-x-0 md:fixed md:inline-block md:w-fit`}>
         <div className="pb-6 flex justify-center">
           <img src={loan} alt="Logo" />
         </div>
