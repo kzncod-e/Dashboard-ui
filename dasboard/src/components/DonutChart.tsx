@@ -45,13 +45,13 @@ const DonutChart = () => {
   };
 
   return (
-    <div className="p-4 bg-white shadow-md w-full mb-6  rounded-lg  mx-auto">
+    <div className="p-4 bg-white  shadow-md w-full mb-6  rounded-lg ">
       <h2 className="text-xl font-bold mb-6 text-center">
         Top 5 Bank Approval Tertinggi
       </h2>
 
-      <div className="flex gap-4 m-auto w-full justify-center mt-4">
-        <div className="flex flex-col gap-7 self-center ">
+      <div className="flex flex-col sm:flex-row  text-center gap-4 m-auto w-full justify-center mt-4">
+        <div className="flex  flex-col gap-7 self-center ">
           <div>
             <p className="text-sm font-bold text-[#6150C1]">
               {data.datasets[0].data[0]}%
